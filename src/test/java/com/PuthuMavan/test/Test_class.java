@@ -12,7 +12,7 @@ public class Test_class extends Base_class  {
  public static Page_obj_manager obj ;
 	
 	@Test
-	public void launch_() throws IOException {
+	public void launch_() throws IOException {//fully practice amazon
 	 
 		 driver = Base_class.browse_selct("chrome");
 		 obj = new Page_obj_manager(driver);
